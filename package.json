@@ -7,7 +7,7 @@
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "author": "Soumyajit",
-  "license": "LUT",
+  "license": "Personal",
   "dependencies": {
     "node-sass": "^4.14.1"
   }
