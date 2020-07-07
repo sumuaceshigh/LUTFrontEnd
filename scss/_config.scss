@@ -1,4 +1,4 @@
-$primary-color: #132a38;
+$primary-color: salmon;
 $secondary-color: #eece1a;
 $show-home-image: true;
 $home-image: url(../img/background.png);
@@ -25,6 +25,14 @@ $background-opacity: 0.9;
         background: rgba($primary-color, $background-opacity);
       }
     }
+  }
+}
+
+@function set-text-color($color) {
+  @if (lightness($color) > 40) {
+    @return black;
+  } @else {
+    @return white;
   }
 }
 
