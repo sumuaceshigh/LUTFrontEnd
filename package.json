@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Responsive Coursework",
   "main": "index.js",
-  "homepage": "https:/sumuaceshigh.github.io/LUTFrontEnd",
+  "homepage": "https://sumuaceshigh.github.io/LUTFrontEnd",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
