@@ -131,7 +131,7 @@ h3 {
     background: rgba(255, 255, 255, 0.5); }
 
 a {
-  color: #ffffff;
+  color: #132a38;
   text-decoration: none; }
 
 header {
@@ -160,7 +160,8 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bioimage bio bio bio" "job1 job2 job3 job4";
+  grid-template-areas: "bioimage bio bio bio"
+ "job1 job2 job3 job4";
   grid-template-columns: repeat(4, 1fr); }
   .about-info .bio-image {
     width: 200px;
@@ -279,7 +280,12 @@ main {
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3" "job4";
+    grid-template-areas: "bioimage"
+ "bio"
+ "job1"
+ "job2"
+ "job3"
+ "job4";
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
